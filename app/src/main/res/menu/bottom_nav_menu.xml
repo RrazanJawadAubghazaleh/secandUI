@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/house_black_silhouette_without_door"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/search"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_restaurant"
+        android:icon="@drawable/restaurant"
+        android:title="@string/restaurant" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/user_booton"
+        android:title="@string/user" />
+
+
+</menu>

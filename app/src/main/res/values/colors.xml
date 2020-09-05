@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff2c6d</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackgrond">#ff2c6d</color>
+    <color name="colorBackgrondTow">#ff8a78</color>
+    <color name="colorCardView">#14000000</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextTow">#fcc668</color>
+    <color name="colorTextButton">#ff2c6d</color>
+    <color name="colorRed">#ea1d2c</color>
+    <color name="colorRedTow">#51EA1D2C</color>
+    <color name="colorEdit">#878787</color>
+    <color name="colorStrogBlack">#111111</color>
+
+
+</resources>

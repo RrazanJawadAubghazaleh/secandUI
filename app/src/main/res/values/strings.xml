@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sacand</string>
+    <string name="SIGNUP"><u>SIGN UP</u></string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="restaurant">restaurant</string>
+    <string name="title_search">search</string>
+    <string name="user">user</string>
+    <string name="number_rangebar_start">$25</string>
+    <string name="number_rangebar_end">$50</string>
+
+    <string-array name="my_items">
+        <item>25</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="my_color">
+        <item>#ea1d2c</item>
+        <item>#51EA1D2C</item>
+    </string-array>
+</resources>

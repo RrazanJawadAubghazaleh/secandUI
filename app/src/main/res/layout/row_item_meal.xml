@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+               >
+                <Button
+                    android:id="@+id/bn_free_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginStart="23dp"
+                    android:paddingStart="11dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="11dp"
+                    android:textSize="12.5sp"
+                    android:letterSpacing="0.02"
+                    android:lineSpacingExtra="45.5sp"
+                    android:fontFamily="@font/now_regular"
+                    android:background="@drawable/backgroind_pink_buuton"
+                    android:text="FREE DELIVERY"
+                    android:textColor="@color/colorText" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image_meal_rec"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        fresco:roundedCornerRadius="25dp"
+        fresco:placeholderImage="@drawable/cuisine_delicious_dinner"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:roundBottomRight="true"
+        fresco:roundBottomLeft="true"
+        fresco:roundTopStart="true"
+        fresco:roundTopEnd="true"
+        fresco:roundTopRight="true"
+        fresco:roundTopLeft="true"/>
+
+
+                <RelativeLayout
+                    android:id="@+id/lyt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/circal"                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/heart"
+                        android:layout_centerInParent="true"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18.8sp"
+        android:textColor="@color/colorStrogBlack"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="39.2sp"
+       android:text="Grilled salmon with Veggitable "
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="22dp">
+
+        <TextView
+            android:id="@+id/tv_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16.2sp"
+            android:layout_marginStart="8dp"
+            android:textColor="#111111"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="41.7sp"
+           android:text="  4.9"
+            />
+
+        <TextView
+            android:id="@+id/tv_tow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16.2sp"
+            android:layout_marginStart="12dp"
+            android:textColor="#111111"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="41.7sp"
+           android:text="(25)"
+            />
+
+        <TextView
+            android:id="@+id/tv_thee"
+            android:layout_marginStart="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16.2sp"
+            android:textColor="#111111"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="41.7sp"
+            android:text="  35 - 40 MIN"
+            />
+    </LinearLayout>
+
+
+    <CheckBox
+        android:visibility="gone"
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="CheckBox" />
+    <CheckBox
+       android:visibility="gone"
+        android:button="@drawable/heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:visibility="gone"/>
+
+</LinearLayout>
