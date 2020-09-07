@@ -22,14 +22,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:numStars="5"
             android:saveEnabled="true"
-            android:stepSize="0.1"
             android:scaleX="0.3"
             android:scaleY="0.3"
-            android:transformPivotX="0dp"
-
-            />
+            android:stepSize="0.1"
+            android:transformPivotX="0dp" />
         <!--    style="?android:attr/ratingBarStyleSmall"
              style="@style/Base.Widget.AppCompat.RatingBar.Small"
             android:rating="3.5"-->
@@ -46,23 +46,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rel_raring"
-       android:progressTint="@color/colorRed"
-        android:thumbTint="@color/colorRed"
         android:progressBackgroundTint="@color/colorRedTow"
-        app:mrb_tickBottomLabels="@array/my_items"/>
+        android:progressTint="@color/colorRed"
+        android:thumbTint="@color/colorRed"
+        app:mrb_tickBottomLabels="@array/my_items" />
 
     <com.appyvet.materialrangebar.RangeBar
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
         android:id="@+id/range_bar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/rangebar1"
 
         app:mrb_pinMaxFont="0sp"
         app:mrb_pinMinFont="0sp"
-        app:mrb_pinRadius="0dp"
-      />
-
-
+        app:mrb_pinRadius="0dp" />
 
 
     <com.appyvet.materialrangebar.RangeBar
@@ -70,34 +67,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/seekBar"
-        app:mrb_thumbBoundaryColor="@color/colorRed"
-        app:mrb_barWeight="2dp"
-        app:mrb_connectingLineWeight="4dp"
-        app:mrb_thumbBoundarySize="2dp"
-        app:mrb_thumbSize="10dp"
-
-        tools:ignore="MissingClass"
         android:backgroundTintMode="multiply"
-        app:mrb_tickLabelSelectedColor="@color/colorPrimary"
-        app:mrb_tickLabelColor="@color/colorRed"
-        app:mrb_tickDefaultColor="@color/colorPrimary"
+        android:progressTint="@color/colorRed"
+        app:mrb_barWeight="2dp"
+        app:mrb_connectingLineColor="@color/colorRed"
+        app:mrb_connectingLineWeight="4dp"
 
-        app:mrb_temporaryPins="true"
+        app:mrb_leftThumbColor="@color/colorRed"
         app:mrb_pinColor="@color/colorRed"
         app:mrb_pinMaxFont="13sp"
         app:mrb_pinMinFont="12sp"
         app:mrb_pinRadius="14dp"
 
+        app:mrb_rangeBarColor="@color/colorRedTow"
+        app:mrb_rightThumbColor="@color/colorRed"
+        app:mrb_temporaryPins="true"
+        app:mrb_thumbBoundaryColor="@color/colorRed"
+        app:mrb_thumbBoundarySize="2dp"
+
         app:mrb_thumbColor="@color/colorEdit"
 
 
-        app:mrb_rangeBarColor="@color/colorRedTow"
-        app:mrb_connectingLineColor="@color/colorRed"
+        app:mrb_thumbSize="10dp"
+        app:mrb_tickDefaultColor="@color/colorPrimary"
 
 
-        app:mrb_leftThumbColor="@color/colorRed"
-        android:progressTint="@color/colorRed"
-        app:mrb_rightThumbColor="@color/colorRed"/>
+        app:mrb_tickLabelColor="@color/colorRed"
+        app:mrb_tickLabelSelectedColor="@color/colorPrimary"
+        tools:ignore="MissingClass" />
 
     <com.appyvet.materialrangebar.RangeBar
         android:id="@+id/rangebar1"
@@ -109,6 +106,7 @@
         android:layout_marginEnd="40dp"
         app:mrb_barWeight="2dp"
 
+        app:mrb_connectingLineColor="@color/colorRed"
         app:mrb_connectingLineWeight="4dp"
         app:mrb_leftThumbColor="#FFB300"
         app:mrb_minThumbDistance="-1"
@@ -122,9 +120,8 @@
         app:mrb_rangeBar_rounded="true"
         app:mrb_rightThumbColor="#1E88E5"
         app:mrb_temporaryPins="true"
-        app:mrb_thumbBoundaryColor="@color/colorRed"
 
-        app:mrb_connectingLineColor="@color/colorRed"
+        app:mrb_thumbBoundaryColor="@color/colorRed"
         app:mrb_thumbBoundarySize="2dp"
         app:mrb_thumbSize="10dp"
         app:mrb_tickBottomLabels="@array/my_items"
@@ -141,12 +138,12 @@
         app:mrb_tickStart="1" />
 
     <com.appyvet.materialrangebar.RangeBar
-        android:layout_marginTop="8dp"
-        android:layout_below="@+id/rangebar"
         android:id="@+id/rangebar2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/rangebar"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="40dp"
         app:mrb_barWeight="2dp"
         app:mrb_connectingLineWeight="4dp"
@@ -161,10 +158,10 @@
         app:mrb_rangeBarPaddingBottom="30dp"
         app:mrb_rangeBar_rounded="true"
         app:mrb_rightThumbColor="#009688"
+        app:mrb_temporaryPins="true"
         app:mrb_thumbBoundaryColor="@color/colorBackgrond"
         app:mrb_thumbBoundarySize="2dp"
         app:mrb_thumbSize="10dp"
-        app:mrb_temporaryPins="true"
         app:mrb_tickColors="@color/colorTextTow"
         app:mrb_tickDefaultColor="#FF673AB7"
         app:mrb_tickDefaultLabel="label"
@@ -182,30 +179,30 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/range_bar3">
 
-    <com.innovattic.rangeseekbar.RangeSeekBar
-        android:id="@+id/rangeSeekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:rsb_maxThumbDrawable="@drawable/circaltow"
-        app:rsb_minThumbDrawable="@drawable/circaltow"
-        app:rsb_trackColor="@color/colorRedTow"
-        app:rsb_trackSelectedColor="@color/colorRed" />
+        <com.innovattic.rangeseekbar.RangeSeekBar
+            android:id="@+id/rangeSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rsb_maxThumbDrawable="@drawable/circaltow"
+            app:rsb_minThumbDrawable="@drawable/circaltow"
+            app:rsb_trackColor="@color/colorRedTow"
+            app:rsb_trackSelectedColor="@color/colorRed" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/number_rangebar_start"
             android:layout_below="@+id/rangeSeekBar"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="20dp"/>
+            android:layout_marginStart="20dp"
+            android:text="@string/number_rangebar_start" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/number_rangebar_end"
             android:layout_below="@+id/rangeSeekBar"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="20dp"/>
+            android:layout_marginEnd="20dp"
+            android:text="@string/number_rangebar_end" />
 
     </RelativeLayout>
 

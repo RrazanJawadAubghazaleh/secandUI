@@ -43,7 +43,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.viewitem
     @Override
     public void onBindViewHolder(final viewitem holder, final int position) {
 
-      holder.imageViewPropertiesHome.setImageResource(items.get(position).getMelImage());
+      //holder.imageViewPropertiesHome.setImageResource(items.get(position).getMelImage());
       holder.tvName.setText(items.get(position).getMealName());
       holder.tvOne.setText(items.get(position).getMealPriceOne());
       holder.tvTew.setText(items.get(position).getMealPriceTew());

@@ -26,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
 //                             WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN);
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+
         getWindow().setStatusBarColor(Color.TRANSPARENT);
         getWindow().setNavigationBarColor(getResources().getColor(R.color.colorStrogBlack));
 

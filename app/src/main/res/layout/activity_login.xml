@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/backgroind_login"
     android:orientation="vertical"
+    android:fillViewport="true"
+    android:isScrollContainer="false"
     tools:context=".ui.activity.LoginActivity"
     >
 
